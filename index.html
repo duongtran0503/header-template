@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>header</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="container-header">
+        <header class="header">
+          <section class="header-top">
+            <h4 class="header-top__title-left" onclick="localStorage.clear()">
+              E-Commerce.com
+            </h4>
+            <div class="header-top-right">
+              <h4 class="header-top__title-right-1">&copy; group 17</h4>
+              <div class="header-top__title-right-2">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-tiktok"></i>
+              </div>
+            </div>
+          </section>
+          <section class="header-middle">
+            <div class="header-menu">
+              <div class="menu"><i class="fa-solid fa-bars"></i></div>
+            </div>
+            <div class="menu-phone-wrap">
+              <div class="menu-phone-top">
+                <div class="phone-access-list">
+                  <div class="phone-access-item" titles="cửa hàng">
+                    <i class="fa-solid fa-shop"></i>
+                  </div>
+                  <div class="phone-access-item" titles="giỏ hàng">
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </div>
+                </div>
+                <button class="menu-btn-close">close</button>
+              </div>
+              <form class="search">
+                <div class="input-box">
+                  <input
+                    type="text"
+                    id="input"
+                    placeholder="nhập tên sản phẩm"
+                  />
+                </div>
+                <button class="button-search">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </form>
+              <div class="selection-menu">
+                <div class="product-menu">sản phẩm</div>
+                <div class="main-menu">menu</div>
+              </div>
+              <nav class="navigation-1">
+                <ul class="list-option">
+                  <li class="option-item">
+                    <div class="item-icon">
+                      <img src="./image/icon/phone.png" alt="pizza" />
+                    </div>
+                    <h4 class="item-title">Điện thoại</h4>
+                    <div class="icon-chevron">
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                  </li>
+                  <li class="option-item">
+                    <div class="item-icon">
+                      <img src="./image/icon/laptop.png" alt="hamburger" />
+                    </div>
+                    <h4 class="item-title">máy tính</h4>
+                    <div class="icon-chevron">
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                  </li>
+                  <li class="option-item">
+                    <div class="item-icon">
+                      <img src="./image/icon/tainghe.png" alt="noodle" />
+                    </div>
+                    <h4 class="item-title">tại nghe</h4>
+                    <div class="icon-chevron">
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                  </li>
+                  <li class="option-item">
+                    <div class="item-icon">
+                      <img src="./image/icon/loa.png" alt="coca" />
+                    </div>
+                    <h4 class="item-title">loa</h4>
+                    <div class="icon-chevron">
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                  </li>
+                  <li class="option-item">
+                    <div class="item-icon">
+                      <img src="./image/icon/pc.png" alt="barbecue" />
+                    </div>
+                    <h4 class="item-title">màn hình</h4>
+                    <div class="icon-chevron">
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                  </li>
+                  <li class="option-item">
+                    <div class="item-icon">
+                      <img src="./image/icon/keyandmouse.png" alt="hotpot" />
+                    </div>
+                    <h4 class="item-title">bàn phím và chuột</h4>
+                    <div class="icon-chevron">
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                  </li>
+                  <li class="option-item">
+                    <div class="item-icon">
+                      <img src="./image/icon/mtbag.png" alt="hotpot" />
+                    </div>
+                    <h4 class="item-title">máy tỉnh bảng</h4>
+                    <div class="icon-chevron">
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                  </li>
+                  <li class="option-item">
+                    <div class="item-icon">
+                      <img src="./image/icon/dongho.png" alt="hotpot" />
+                    </div>
+                    <h4 class="item-title">đồng hồ</h4>
+                    <div class="icon-chevron">
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+              <nav class="navigation-2">
+                <ul>
+                  <li>Home</li>
+                  <li>shop</li>
+                  <li>About</li>
+                  <li>contact</li>
+                </ul>
+              </nav>
+            </div>
+            <div class="header-logo">
+              <img src="./logo.png" alt="logo" />
+              <h2><span>e</span>shop</h2>
+            </div>
+            <form action="#" class="header-search" autocomplete="off">
+              <div class="input-box">
+                <label for="input"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></label>
+                <input
+                  id="input"
+                  type="text"
+                  class="input"
+                  placeholder="nhập tên sản phẩm"
+                />
+              </div>
+              <div class="buttons">
+                <button>tìm kiếm</button>
+              </div>
+            </form>
+            <div class="header-access-list">
+              <div class="header-access-item" titles="cửa hàng">
+                <i class="fa-solid fa-shop"></i>
+              </div>
+              <div class="header-access-item" titles="giỏ hàng">
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+              <div class="header-access-item-3" titles="tài khoản">
+                <i class="fa-regular fa-user"></i>
+              </div>
+            </div>
+          </section>
+          <section class="header-bottom">
+            <nav class="header-bottom-nav">
+              <ul class="list-option">
+                <li class="option-item">
+                  <div class="item-icon">
+                    <img src="./image/icon/phone.png" alt=" " />
+                  </div>
+                  <h4 class="item-title">Điện thoại</h4>
+                </li>
+                <li class="option-item">
+                  <div class="item-icon">
+                    <img src="./image/icon/laptop.png" alt="" />
+                  </div>
+                  <h4 class="item-title">máy tính</h4>
+                </li>
+                <li class="option-item">
+                  <div class="item-icon">
+                    <img src="./image/icon/tainghe.png" alt="" />
+                  </div>
+                  <h4 class="item-title">tại nghe</h4>
+                </li>
+                <li class="option-item">
+                  <div class="item-icon">
+                    <img src="./image/icon/loa.png" alt="" />
+                  </div>
+                  <h4 class="item-title">loa</h4>
+                </li>
+                <li class="option-item">
+                  <div class="item-icon">
+                    <img src="./image/icon/pc.png" alt="" />
+                  </div>
+                  <h4 class="item-title">màn hình</h4>
+                </li>
+                <li class="option-item">
+                  <div class="item-icon">
+                    <img src="./image/icon/keyandmouse.png" alt="" />
+                  </div>
+                  <h4 class="item-title">bàn phím và chuột</h4>
+                </li>
+                <li class="option-item">
+                  <div class="item-icon">
+                    <img src="./image/icon/mtbag.png" alt="" />
+                  </div>
+                  <h4 class="item-title">máy tỉnh bảng</h4>
+                </li>
+                <li class="option-item">
+                  <div class="item-icon">
+                    <img src="./image/icon/dongho.png" alt="" />
+                  </div>
+                  <h4 class="item-title">đồng hồ</h4>
+                </li>
+              </ul>
+            </nav>
+          </section>
+        </header>
+      </section>
+      <main></main>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
